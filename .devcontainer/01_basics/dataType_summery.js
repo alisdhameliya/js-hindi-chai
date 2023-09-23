@@ -33,3 +33,26 @@ const myFunction = function(){    // datatype = function
 }
 
 console.log(typeof myFunction);
+
+let myName = "alis Dhameliya"
+
+let hisName = myName;   // primitive data type ma variable ni value copy thay chhe (Stack)
+                        //jyare non-primitive ma value no reference pass thay chhe (Heap)
+
+hisName="piyush"
+console.log(myName)
+console.log(hisName)
+
+// Stack (Primitive), Heap (Non-Primitive) 
+let myYoutubename = "hiteshchoudharydotcom"
+let anothername = myYoutubename 
+anothername = "chaiaurcode" 
+
+let userOne = {
+    email: "user@google. com" , 
+    upi: "use r@yblll "
+} 
+let userTwo = userOne 
+userTwo.email = "hitesh@google. com"      //value change at userOne variable because of heap memory.
+console. log ( userOne. email) ; 
+console. log ( userOne. email) ; 
