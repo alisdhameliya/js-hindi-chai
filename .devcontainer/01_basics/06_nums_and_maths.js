@@ -23,4 +23,31 @@ console.log(num.toLocaleString('en-IN'))       //  1,00,00,00,000
 
 
 
+//#####################   Math function #####################
+
+console.log(Math.abs(-4)); //what abs do?  absolute value => if value is nagative it convert into positive
+
+console.log(Math.sqrt(16,2)); //4
+console.log(Math.round(16.5));  //17
+
+console.log(Math.ceil(16.2));  //17
+console.log(Math.floor(16.2));  //16
+
+console.log(Math.pow(16,2));  //256
+
+console.log(Math.min(16,3, 4,52));  //min = 3 , max = 52
+
+console.log(Math.random());
+console.log(Math.random() * 100);
+console.log(Math.floor(Math.random() * 100))
+
+
+let min = 10;
+let max = 40;
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
+
+
+
 
