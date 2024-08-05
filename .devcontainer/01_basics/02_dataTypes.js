@@ -1,4 +1,5 @@
-"use strict"; //treat all js code as newer version
+"use strict"; //treat all js code as newer version 
+// use strict used for  you must have to define variable first and than you can use or intitialize;
 
 // alert("hello ");  it gives Error because alert is not a part of js , it is the part of Browser.
 
